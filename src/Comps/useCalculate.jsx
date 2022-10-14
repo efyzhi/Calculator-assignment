@@ -9,7 +9,7 @@
   }
     
 const handleClickDot = (e) => {
-    let val = e.target.innerHTML; let sign = val.trim()
+    let val = e.target.value; let sign = val.trim()
     if (calc.slice(calc.length-1) === sign) {
       setCalc((prevValue) => prevValue);
     }

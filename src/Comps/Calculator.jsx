@@ -54,7 +54,7 @@ const Calculator = () => {
       
         
           <button value="." onClick={handleClickDot} className="decimal" > . </button>
-          <button value="0" onClick={handleClick}> 0 </button>
+          <button value="0" onClick={handleClickDot}> 0 </button>
           <button value="=" onClick={() => calculate()} className="equate sign"> = </button>
         
       </div>
